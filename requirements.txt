@@ -1,0 +1,5 @@
+selenium
+urllib
+urllib3
+tweepy
+requests
