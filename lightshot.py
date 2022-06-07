@@ -27,5 +27,4 @@ def scraper():
         urllib.request.urlretrieve(img_data, "img.png")
     except:
         print("No image found")
-
-scraper()
+        scraper()
