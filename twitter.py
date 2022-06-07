@@ -22,8 +22,9 @@ def postTweet():
         print("The media ID is : " + media.media_id_string)
         print("The size of the file is : " + str(media.size) + " bytes")
 
-    time.sleep(15)
-
+    ## Change the time (in seconds) to update the frequency at which it scrapes the screenshots and tweets it.
+    time.sleep(700)
+    
     postTweet()
 
 postTweet()
